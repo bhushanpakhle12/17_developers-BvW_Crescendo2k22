@@ -1,0 +1,25 @@
+/* body{
+    background-image: url(mentorbg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    opacity: 2.0;
+    width: auto;
+    height: auto;
+} */
+
+#g1{
+    text-align: center;
+}
+
+#m1{
+    color: #003366;
+}
+
+.navbar a:hover {
+    border-bottom: 2px #fff solid;
+  }
+
+body{
+    background-color: #d98cb3;
+}

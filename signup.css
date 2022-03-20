@@ -1,0 +1,15 @@
+#w1{ padding-top:30px; }
+
+.form-control { margin-bottom: 10px; }
+
+.navbar a:hover {
+    border-bottom: 2px #fff solid;
+  }
+
+#c1{
+      padding-left: 5%;
+}
+
+#r1{
+    display: inline-block;
+}

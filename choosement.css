@@ -1,0 +1,12 @@
+body{
+    background-color: #99ccff;
+}
+
+.col{
+    width: auto;
+    height: auto;
+}
+
+.navbar a:hover {
+    border-bottom: 2px #fff solid;
+  }

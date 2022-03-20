@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- <link href="request.css" rel="stylesheet" type="text/css"> -->
+
+    <title>request</title>
+</head>
+
+<body style="background-color: #ffcc99;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid" id="x1">
+            <a class="navbar-brand" href="home.html">BVW Writing Center</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="request.html">Request</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active" href="mentors.html">
+                            Mentors
+                        </a>
+                        <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul> -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="mentconferences.html">Conferences</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <a class="nav-link active" href="login.html">Login</a>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <fieldset class="fieldset">
+        <legend id="one">
+            <!-- <img src="re.jpg" class="image" id="c1" width="600px" height="600px" style="position: relative; padding-left: 5%; padding-right: 5%;align-self: center;"> -->
+            <div class="container-fluid">
+                <center>
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="re.jpg" width="1200px" height="600px"
+                                    style="display: flex; justify-content: center;" class="image" alt="i">
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </center>
+            </div>
+        </legend>
+        <h1 style="text-align: center;">Request</h1>
+        <p style="text-align: center;">Fill the Details Below</p>
+        <label for="Name" class="">Name</label>
+        <input type="text" value="" class="input">
+        <br>
+        <br>
+        <label for="username" class="">username</label>
+        <input type="text" value="" class="input">
+        <!--<p>Name</p>-->
+        <br>
+        <label for="abteilung" class="abteilung_space">Category:</label>
+        <br>
+        <input type="checkbox" class="begin1"> Art
+        <br>
+        <input type="checkbox" class="begin1"> Marketing<br>
+        <input type="checkbox" class="begin21"> Education System
+        <input type="checkbox" class="begin22"> Academic<br>
+        <input type="checkbox" class="begin3"> Finance
+        <input type="checkbox" class="begin3"> Software Services
+        <input type="checkbox" class="begin3"> Basic needs
+        <input type="checkbox" class="begin3"> Nature
+        <input type="checkbox" class="begin3"> Other
+    </fieldset><br><br>
+    <div>
+        <label for="Anschaffungswert">Total No. of Students Required:</label>
+        <input type="text" value="" class="none">
+        <label for="Zeitpunkt" class="even">Minimum Knowledge required for topic:</label>
+        <input type="text" value="" class="none"><br><br><br>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <td>
+                    <label for="investitionsart" class="investion">Current Status of Research Paper:</label>
+                    <br>
+                    <input type="checkbox" name="" value="" class="one" />
+                    Half Complete
+                    <br>
+                    <input type="checkbox" name="" value="" class="one" />
+                    Implementation Done but not yet written
+                    <br>
+                    <input type="checkbox" name="" value="" class="one" />
+                    Incomplete due to surveys and lack of resources<br><br><br>
+                </td>
+            </tr>
+            <!-- <tr>
+                <td>
+                    <label for="intern" class="somethin">Intern:</label>
+                    <input type="checkbox" name="" value="" class="one1" />
+                    Ersatzbeschaffung
+                    <input type="checkbox" name="" value="" class="one11" />
+                    veraltet
+                    <input type="checkbox" name="" value="" class="one12" />
+                    defekt<br><br><br>
+                </td>
+            </tr> -->
+        </table>
+    </div>
+    <br>
+    <br>
+    <center>
+    <div id="r1"><button class="btn btn-lg btn-light btn-block" type="submit"><a href="">
+        Push Request</a></button></div>
+    </center>
+    <br>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

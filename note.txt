@@ -1,0 +1,25 @@
+REQUEST:
+  Source person:
+  1. username
+  2. name 
+  3. name of research paper
+  4. info about research paper
+  5. how many people in total are required to collaborate
+
+  Destination person:
+  1. username
+  2. interest and reason why u want to collaborate
+
+  the source person will upload a request for collaboration in his/her research paper
+  with the info and the total no. of people required to collaborate on that research paper
+  then he will shortlist the people he wants by seeing their profile. Once the source 
+  person has selected the required amount of persons for the collaboration the request made by the source person should get close.
+
+
+MENTORS :
+   Profile of mentors with their proof that this much time they are working in this industry.
+
+Since research students want mentors and we have the requestors and the interested students
+so we also have students profile because it is needed for request also.
+so basically we will have 2 profile database which will be of students and mentors.
+So the requestor can be a student only.  

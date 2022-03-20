@@ -1,0 +1,12 @@
+body{
+    background-color: aqua;
+}
+
+.col{
+    width: auto;
+    height: auto;
+}
+
+.navbar a:hover {
+    border-bottom: 2px #fff solid;
+  }

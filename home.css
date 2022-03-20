@@ -1,0 +1,19 @@
+p,h1{
+    text-align: center;
+}
+
+#as{
+    background-color: #00ccff;
+}
+
+body {
+    background-image: url(bbb.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    opacity: 2.0;
+  }
+
+  .navbar a:hover {
+    border-bottom: 2px #fff solid;
+  }
